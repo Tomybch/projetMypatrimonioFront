@@ -1,0 +1,33 @@
+.log-part {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.login-popUp.active {
+  right: 0;
+  transition: 350ms;
+}
+
+.login-popUp {
+  background-color: white;
+  width: 250px;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 750ms;
+  border: 1px solid black;
+  margin-top: 100px;
+  margin-right: 90px;
+}
+
+.login, .register {
+  // border: solid 1px black;
+  border-radius: 15px;
+  padding: 5px;
+  align-self: center;
+  margin: 8px;
+}
